@@ -17,3 +17,4 @@ Scripts in order:
 15 - moves files which start with uppercase letters
 16 - purges files which end with ~
 17 - creates a specific directory tree
+18 - lists files and directories in a specified way
