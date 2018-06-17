@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -lRa | grep ^d.* | grep -cv [.]$
+ls -lRa | grep ^d.* | grep -vE '( .| ..)'$
