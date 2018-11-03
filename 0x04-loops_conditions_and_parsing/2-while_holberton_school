@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# While looping 'Holberton School' 10 times
+index=1
+while [ $index -le 10 ]
+do
+  echo 'Holberton School'
+  index=$((index+1))
+done

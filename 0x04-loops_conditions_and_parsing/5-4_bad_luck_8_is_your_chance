@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# Prints 'bad luck' on 4th loop and 'good luck' on 8th loop
+index=1
+while ((index < 11))
+do
+  if ((index == 4))
+  then
+    echo 'bad luck'
+  elif ((index == 8))
+  then
+    echo 'good luck'
+  else
+    echo 'Holberton School'
+  fi
+  index=$((index+1))
+done

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Until looping 'Holberton School' 10 times
+index=1
+until ((index >= 11))
+do
+  echo 'Holberton School'
+  index=$((index+1))
+done

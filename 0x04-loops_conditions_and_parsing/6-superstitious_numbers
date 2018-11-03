@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# prints 1 to 20 with some other stuff
+index=1
+while ((index < 21))
+do
+  echo $index
+  if ((index == 4))
+  then
+    echo 'bad luck from China'
+  elif ((index == 9))
+  then
+    echo 'bad luck from Japan'
+  elif ((index == 17))
+  then
+    echo 'bad luck from Italy'
+  fi
+  index=$((index+1))
+done
