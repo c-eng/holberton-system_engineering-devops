@@ -1,0 +1,3 @@
+#!/bin/usr/env bash
+#show attached ipv4
+ifconfig | grep "inet addr:" | cut -f 2 -d ':' | cut -f 1 -d ' '
