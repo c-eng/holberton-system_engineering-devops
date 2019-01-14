@@ -1,10 +1,7 @@
 #!/usr/bin/env bash
-# Fixes broken webserver container to serve 'Hello Holberton'
+# Fixes broken webserver container
 
 sudo apt-get update
 sudo apt-get -y upgrade
 sudo apt-get -y install apache2
 sudo service apache2 start
-wget https://raw.githubusercontent.com/c-eng/holberton-system_engineering-devops/master/0x0C-web_stack_debugging_0/index.html
-sudo mv index.html /var/www/html
-sudo service apache2 restart
