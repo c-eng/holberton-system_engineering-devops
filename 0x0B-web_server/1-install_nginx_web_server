@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Configures new ubuntu machine with nginx
-apt-get update
-apt-get -y upgrade
-apt-get -y install nginx
-echo "hello Holberton School hello Holberton School hello Holberton School" > /usr/share/nginx/html/index.html
-service nginx restart
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+echo "hello Holberton School hello Holberton School hello Holberton School" | sudo tee /usr/share/nginx/html/index.html
+sudo service nginx restart
