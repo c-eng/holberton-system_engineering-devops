@@ -3,5 +3,5 @@
 apt-get update
 apt-get -y upgrade
 apt-get -y install nginx
-echo "Holberton School Holberton School Holberton School Holberton School Holberton School Holberton School Holberton School Holberton School" > /usr/share/nginx/html/index.html
+echo "hello Holberton School hello Holberton School hello Holberton School" > /usr/share/nginx/html/index.html
 service nginx start
