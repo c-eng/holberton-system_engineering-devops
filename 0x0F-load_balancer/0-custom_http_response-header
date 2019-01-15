@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+# Configures new ubuntu machine with nginx
+sudo apt-get update
+sudo apt-get -y upgrade
+sudo apt-get -y install nginx
+echo "hello Holberton School hello Holberton School hello Holberton School" | sudo tee /usr/share/nginx/html/index.html
+wget https://raw.githubusercontent.com/c-eng/holberton-system_engineering-devops/master/0x0F-load_balancer/default-3
+mv default-3 default
+mv default /etc/nginx/sites-available
+wget https://raw.githubusercontent.com/c-eng/holberton-system_engineering-devops/master/0x0B-web_server/404.html
+mv 404.html /usr/share/nginx/html
+sudo service nginx restart
