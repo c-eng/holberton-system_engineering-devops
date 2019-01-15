@@ -13,7 +13,7 @@ server {
 		}
 
        location / {
-       		add_header X-Served-By $HOSTNAME
+       		add_header X-Served-By $HOSTNAME;
        }
 
 	error_page 404 /404.html;
