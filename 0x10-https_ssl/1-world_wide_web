@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# The subdomain [SUB_DOMAIN] is a [RECORD_TYPE] record and points to [DESTINATION]
+# shellcheck disable=SC2034
+
+requirement=$(echo a | awk 'length($0) > 72')
+if (($# == 1))
+then
+  SB[0]="www"
+  SB[1]="lb-01"
+  SB[2]="web-01"
+  SB[3]="web-02"
+  for subdom in ${SB[*]}
+  do
+    query=$(dig +nocmd +noall +answer $subdom.$1)
+    rec=$(echo $query | cut -d " " -f 4)
+    des=$(echo $query | cut -d " " -f 5)
+    echo "The subdomain $subdom is a $rec record and points to $des"
+    ind=$((ind+1))
+  done
+else
+  query=$(dig +nocmd +noall +answer $2.$1)
+  rec=$(echo $query | cut -d " " -f 4)
+  des=$(echo $query | cut -d " " -f 5)
+  echo "The subdomain $2 is a $rec record and points to $des"
+fi
