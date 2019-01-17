@@ -1,0 +1,14 @@
+# renew_before_expiry = 30 days
+version = 0.28.0
+archive_dir = /etc/letsencrypt/archive/cameron3ng.site
+cert = /etc/letsencrypt/live/cameron3ng.site/cert.pem
+privkey = /etc/letsencrypt/live/cameron3ng.site/privkey.pem
+chain = /etc/letsencrypt/live/cameron3ng.site/chain.pem
+fullchain = /etc/letsencrypt/live/cameron3ng.site/fullchain.pem
+
+# Options used in the renewal process
+[renewalparams]
+account = db48aebf50367fa3fc1a00b9db78636d
+pref_challs = http-01,
+authenticator = standalone
+http01_port = 54321
