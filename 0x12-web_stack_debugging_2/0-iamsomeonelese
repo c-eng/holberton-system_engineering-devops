@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# whoareyou
+runuser -l  userNameHere -c whoami
