@@ -4,7 +4,7 @@ Basic shell redirects and filters
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-hello_world` | Prints “Hello, World”, followed by a new line to the standard output. |
