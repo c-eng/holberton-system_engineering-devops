@@ -4,7 +4,7 @@ Introduction to shell
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-current_working_directory` |  Prints the absolute path name of the current working directory. |
