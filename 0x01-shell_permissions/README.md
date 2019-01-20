@@ -4,7 +4,7 @@ Modifying user and group permissions in shell
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-iam_betty` | Changes user ID to betty. |
