@@ -4,7 +4,7 @@ Regular Expressions
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-simply_match_holberton.rb` | Match Holbedrton. |
