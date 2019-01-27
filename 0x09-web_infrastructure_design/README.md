@@ -4,7 +4,7 @@ Introduction to web infrastructure design
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-simple_web_stack` | Answer file for task 0. |
