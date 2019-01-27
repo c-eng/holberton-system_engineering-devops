@@ -4,7 +4,7 @@ Introduction to Secure Shell
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-use_a_private_key` | Connect to a server using a private ssh key. |
