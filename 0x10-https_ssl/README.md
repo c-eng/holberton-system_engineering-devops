@@ -4,7 +4,7 @@ Intro to SSL
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-https_abc` | Answer file for task 0. |
