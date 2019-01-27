@@ -4,7 +4,7 @@ Beginning webstack debugging
 
 ## Directory Contents
 
-|   ***File/Folder***    |  **Decription**                       |
+|   ***File/Folder***    |  **Description**                       |
 |---------------|---------------------------------------|
 | `README.md` |  Read me file. |
 | `0-give_me_a_page` | Debug file for task 0. |
