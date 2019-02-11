@@ -2,12 +2,12 @@
 """Gathers data from an api"""
 
 
-import requests
 from sys import argv
+import requests
 
 if __name__ == "__main__":
     r1 = requests.get("https://jsonplaceholder.typicode.com/users/{}"
-                     .format(argv[1]))
+                      .format(argv[1]))
     r2 = requests.get("https://jsonplaceholder.typicode.com/todos?userId={}"
                       .format(argv[1]))
     rson1 = r1.json()
