@@ -9,7 +9,7 @@ def top_ten(subreddit):
     """
     import requests
     dest = "https://www.reddit.com/r/{}/top.json?limit=10".format(subreddit)
-    headers = {"User-Agent": "python3/requests (Ubuntu)"}
+    headers = {"User-Agent": "python3/requests:htbn API tasks (Ubuntu)"}
     r = requests.get(dest, headers=headers)
     if r.status_code != 200:
         print("None")
