@@ -2,14 +2,12 @@
 """returns number of subscribers for a given reddit sub"""
 
 
-import requests
-
-
 def number_of_subscribers(subreddit):
     """returns number of subscribers for a given reddit sub
     args:
         subreddit (str): subreddit
     """
+    import requests
     dest = "https://www.reddit.com/r/{}/about/.json".format(subreddit)
     headers = {"User-Agent": "python3/requests (Ubuntu)"}
     r = requests.get(dest, headers=headers)

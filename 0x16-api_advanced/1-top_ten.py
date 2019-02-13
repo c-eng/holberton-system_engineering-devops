@@ -2,14 +2,12 @@
 """returns top ten posts of a given subreddit"""
 
 
-import requests
-
-
 def top_ten(subreddit):
     """returns top ten posts of a given subreddit
     args:
         subreddit (str): subreddit
     """
+    import requests
     dest = "https://www.reddit.com/r/{}/top.json?limit=10".format(subreddit)
     headers = {"User-Agent": "python3/requests (Ubuntu)"}
     r = requests.get(dest, headers=headers)
